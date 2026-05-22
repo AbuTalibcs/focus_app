@@ -1,0 +1,21 @@
+lib/
+│
+├── core/
+│   ├── constants/
+│   ├── theme/
+│   ├── utils/
+│   ├── services/
+│
+├── features/
+│   ├── focus_mode/
+│   ├── app_blocking/
+│   ├── analytics/
+│   ├── onboarding/
+│
+├── shared/
+│   ├── widgets/
+│   ├── models/
+│
+├── native_bridge/
+│
+├── main.dart
