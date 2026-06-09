@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:focus_app/theme/theme_provider.dart';
+import 'package:focus_app/core/theme/theme_provider.dart';
 import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget{

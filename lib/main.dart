@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:focus_app/screens/home.dart';
-import 'package:focus_app/theme/theme_provider.dart';
+import 'package:focus_app/core/theme/theme.dart';
+import 'package:focus_app/core/theme/theme_provider.dart';
 import 'package:provider/provider.dart';
 
 void main() {
@@ -12,23 +13,16 @@ void main() {
   );
 }
 
-class FocusApp extends StatefulWidget{
+class FocusApp extends StatelessWidget{
   const FocusApp({super.key});
-
-  @override
-  State<FocusApp> createState() {
-    return _MyFocusApp();
-
-  }
-}
-
-class _MyFocusApp extends State<FocusApp>{
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Focus',
-      theme: Provider.of<ThemeProvider>(context).themeData,
+      themeMode: Provider.of<ThemeProvider>(context).themeMode,
+      theme: lightMode,
+      darkTheme: darkMode,
       home: const HomeScreen(),
     );
   }

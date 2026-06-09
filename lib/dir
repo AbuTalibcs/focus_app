@@ -19,3 +19,30 @@ lib/
 ├── native_bridge/
 │
 ├── main.dart
+
+THEME :
+success color : #4CAF50
+waring color : #FFB703
+error color : #E63946
+    LIGHT
+    primary color : soft indigo #5E60CE
+    secondary color : soft teal #64DFDF
+    tertiary color : muted lavender #A084E8
+
+    Element	Color
+    Background	#F8F9FA
+    Surface/Card	#FFFFFF
+    Primary Text	#1F2937
+    Secondary Text	#6B7280
+
+    DARK MODE
+
+    Primary   #5E60CE (Soft Indigo) → #818CF8
+    Secondary #64DFDF (Soft Teal)   → #7DD3FC
+    Tertiary  #A084E8 (Lavender)    → #C4B5FD
+
+    Element	Color
+    Background	#0F172A
+    Surface/Card	#1E293B
+    Primary Text	#F8FAFC
+    Secondary Text	#94A3B8

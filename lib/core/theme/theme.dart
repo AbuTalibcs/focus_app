@@ -6,7 +6,11 @@ ThemeData lightMode = ThemeData(
       background: Color(0xFFF8F9FA),
       primary: Color(0xFF5E60CE),
       secondary: Color(0xFF64DFDF),
-      tertiary: Color(0xFFA084E8)
+      tertiary: Color(0xFFA084E8),
+      surface: Color(0xFFFFFFFF),
+      onBackground: Color(0xFF1F2937),
+      onSurface: Color(0xFF1F2937),
+      onPrimary: Colors.white,
   ),
 );
 
@@ -16,10 +20,13 @@ ThemeData darkMode = ThemeData(
     background: Color(0xFF0F172A),
     primary: Color(0xFF818CF8),
     secondary: Color(0xFF7DD3FC),
-    tertiary: Color(0xFFC4B5FD)
+    tertiary: Color(0xFFC4B5FD),
+    surface: Color(0xFF1E293B),
+    onBackground: Color(0xFFF8FAFC),
+    onSurface: Color(0xFFF8FAFC),
+    onPrimary: Colors.black,
   )
 );
-
 
 // THEME :
 // success color : #4CAF50
