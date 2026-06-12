@@ -46,3 +46,48 @@ error color : #E63946
     Surface/Card	#1E293B
     Primary Text	#F8FAFC
     Secondary Text	#94A3B8
+
+
+    lib/
+
+    core/
+    │
+    ├── router/
+    │   ├── app_router.dart
+    │   └── routes.dart
+    │
+    ├── theme/
+    │   ├── theme.dart
+    │   ├── theme_provider.dart
+    │   ├── app_colors.dart
+    │   ├── app_spacing.dart
+    │   └── app_text_styles.dart
+    │
+    ├── widgets/
+    │   ├── focus_card.dart
+    │   ├── focus_button.dart
+    │   ├── section_title.dart
+    │   └── stat_tile.dart
+    │
+
+    features/
+
+    ├── dashboard/
+    │   ├── dashboard_screen.dart
+    │   └── widgets/
+    │
+    ├── analytics/
+    │   ├── analytics_screen.dart
+    │
+    ├── focus/
+    │   ├── focus_screen.dart
+    │
+    ├── blocked_apps/
+    │   ├── blocked_apps_screen.dart
+    │
+    ├── settings/
+    │   ├── settings_screen.dart
+    │
+    navigation/
+    │
+    └── bottom_nav_shell.dart
